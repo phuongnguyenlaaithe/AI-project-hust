@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState} from "react";
-import L from "leaflet";
+import React, { useRef, useState} from "react";
 import SearchBox from "./SearchBox";
 import Maps from "./Maps";
 import FindPath from "./FindPath";
@@ -7,6 +6,8 @@ import FindPath from "./FindPath";
 function App() {
   const [sourcePosition, setSourcePosition] = useState(null);
   const [destPosition, setDestPosition] = useState(null);
+  const [sourceNote, setSourceNote] = useState("");
+  const [destNote, setDestNote] = useState("");
   const mapRef = useRef(null); // Thêm một tham chiếu đến bản đồ
 
   return (
@@ -22,16 +23,18 @@ function App() {
         <SearchBox
           selectPosition={sourcePosition}
           setSelectPosition={setSourcePosition}
-          inputType="source"
+          searchText={sourceNote}
+          setSearchText={setSourceNote}
         />
         <SearchBox
           selectPosition={destPosition}
           setSelectPosition={setDestPosition}
-          inputType="destination"
+          searchText={destNote}
+          setSearchText={setDestNote}
         />
         <FindPath
-        sourcePosition={sourcePosition}
-        destPosition={destPosition}
+        sourceNote={sourceNote}
+        destNote={destNote}
         map={mapRef.current} // Truyền tham chiếu đến bản đồ vào component FindPath
         />
       </div>

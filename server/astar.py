@@ -50,3 +50,8 @@ def aStar(source, destination):
     
     print("Time taken to find path(in second): "+str(time.time()-s))
     return path
+
+source_point = (40.5018771,-74.4580488)
+destination_point = (40.5022222,-74.4513744)
+result_path = aStar(source_point, destination_point)
+print(result_path)

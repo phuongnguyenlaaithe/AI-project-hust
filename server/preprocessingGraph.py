@@ -12,3 +12,6 @@ def parseXML(graphMLFile):
 
 osmFile = "data/map.osm"
 filePathML = "data/map.graphml"
+
+parseXML(filePathML)
+

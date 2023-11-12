@@ -15,9 +15,8 @@ const params = {
 };
 
 export default function SearchBox(props) {
-  const { selectPosition, setSelectPosition, inputType } = props; // Thêm inputType để xác định loại ô tìm kiếm
+  const { selectPosition, setSelectPosition, searchText, setSearchText } = props; // Thêm inputType để xác định loại ô tìm kiếm
 
-  const [searchText, setSearchText] = useState("");
   const [listPlace, setListPlace] = useState([]);
 
   return (

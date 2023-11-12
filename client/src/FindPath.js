@@ -1,11 +1,12 @@
 // FindPath.js
-import React, { useEffect } from "react";
+import React from "react";
 import L from "leaflet";
 import Button from "@material-ui/core/Button";
 
 export default function FindPath(props) {
-  const { sourcePosition, destPosition, map} = props;
+  const { sourceNote, destNote, map} = props;
   var SERVER_URL = "http://localhost:5000";
+  console.log(sourceNote,destNote);
 
   // Hàm vẽ đường lên bản đồ
   const drawPathOnMap = (data) => {
@@ -20,8 +21,8 @@ export default function FindPath(props) {
   };
 
   const handleFindPath = () => {
-    if (sourcePosition && destPosition) {
-      const REST_API = `${SERVER_URL}/calculate?pntdata=${sourcePosition.lat},${sourcePosition.lon},${destPosition.lat},${destPosition.lon}`;
+    if (sourceNote && destNote) {
+      const REST_API = `${SERVER_URL}/calculate?pntdata=${sourceNote},${destNote}`;
       fetch(REST_API)
         .then((response) => response.text())
         .then((data) => {

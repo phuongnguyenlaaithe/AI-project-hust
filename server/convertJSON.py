@@ -1,57 +1,52 @@
-import xmltodict
-from haversine import haversine
-import time
+import preprocessingGraph as pg
 import numpy as np
+from haversine import haversine
 from sklearn.neighbors import KDTree
 
-s = time.time()
-doc = {}
-with open('data/map.graphml') as fd:
-    doc = xmltodict.parse(fd.read())
-print(time.time()-s)
-
-def getLatLon(OSMId):
-    lat, lon = 0, 0
-    nodes = doc['graphml']['graph']['node']
-    for eachNode in range(len(nodes)):
-        if(nodes[eachNode]["@id"] == str(OSMId)):
-            lat = float(nodes[eachNode]["data"][0]["#text"])
-            lon = float(nodes[eachNode]["data"][1]["#text"])
-    return (lat, lon)
+xmldoc = pg.parseXML("data/map.graphml")
 
 def getOSMId(lat, lon):
-    OSMId = 0
-    nodes = doc['graphml']['graph']['node']
-    for eachNode in range(len(nodes)):
-        if(nodes[eachNode]["data"][0]["#text"]==str(lat)):
-            if(nodes[eachNode]["data"][1]["#text"]==str(lon)):
-                OSMId = nodes[eachNode]["data"][2]["#text"]
-            
-    return OSMId
+    itemlist = xmldoc.getElementsByTagName('node')
+    for eachNode in range(len(itemlist)):
+        dataPoints = itemlist[eachNode].getElementsByTagName('data')
+        if(dataPoints[0].firstChild.data==str(lat)):
+            if(dataPoints[1].firstChild.data==str(lon)):
+                return (itemlist[eachNode].attributes['id'].value)  
+
+def getLatLon(OSMId):
+    ls = []
+    itemlist = xmldoc.getElementsByTagName('node')
+    for eachNode in range(len(itemlist)):
+        dataPoints = itemlist[eachNode].getElementsByTagName('data')
+        if(itemlist[eachNode].attributes['id'].value==str(OSMId)):
+            ls.append(float(dataPoints[0].firstChild.data))
+            ls.append(float(dataPoints[1].firstChild.data))
+            break
+    return tuple(ls)
     
 def calculateHeuristic(curr,destination):
     return (haversine(curr,destination))
-
+    
 def getNeighbours(OSMId, destinationLetLon):
     neighbourDict = {}
     tempList = []
-    edges = doc['graphml']['graph']['edge']
-    for eachEdge in range(len(edges)):
-        if(edges[eachEdge]["@source"]==str(OSMId)):
+    itemList = xmldoc.getElementsByTagName('edge')
+    for eachEdge in range(len(itemList)):
+        length = 0
+        if(itemList[eachEdge].attributes['source'].value==str(OSMId)):
             temp_nbr = {}
             
-            neighbourCost = 0
-            neighbourId = edges[eachEdge]["@target"]
-            neighbourLatLon = getLatLon(neighbourId) 
+            dataPoints = itemList[eachEdge].getElementsByTagName('data')
             
-            dataPoints = edges[eachEdge]["data"]
             for eachData in range(len(dataPoints)):
-                if(dataPoints[eachData]["@key"]=="d12"):
-                    neighbourCost = dataPoints[eachData]["#text"]
+                if(dataPoints[eachData].attributes['key'].value=="d10"):
+                    length = dataPoints[eachData].firstChild.data
+                    
+            neighbour = itemList[eachEdge].attributes['target'].value
+            curr = getLatLon(neighbour)
+            heuristic = calculateHeuristic(curr, destinationLetLon)
             
-            neighborHeuristic = calculateHeuristic(neighbourLatLon, destinationLetLon)
-            
-            temp_nbr[neighbourId] = [neighbourLatLon, neighbourCost, neighborHeuristic]
+            temp_nbr[neighbour] = [curr, length, heuristic]
             tempList.append(temp_nbr)
             
     neighbourDict[OSMId] = tempList
@@ -71,12 +66,12 @@ def getNeighbourInfo(neighbourDict):
     return neighbourId, neighbourHeuristic, neighbourCost, neighbourLatLon
 
 #Argument should be tuple
-
 def getKNN(pointLocation):
-    nodes = doc["graphml"]["graph"]["node"]
+    itemlist = xmldoc.getElementsByTagName('node')
     locations = []
-    for eachNode in range(len(nodes)):
-        locations.append((nodes[eachNode]["data"][0]["#text"],nodes[eachNode]["data"][1]["#text"]))
+    for eachNode in range(len(itemlist)):
+        dataPoints = itemlist[eachNode].getElementsByTagName('data')
+        locations.append((dataPoints[0].firstChild.data,dataPoints[1].firstChild.data))
 
     locations_arr = np.asarray(locations, dtype=np.float32)
     point = np.asarray(pointLocation, dtype=np.float32)
@@ -85,9 +80,8 @@ def getKNN(pointLocation):
     dist, ind = tree.query(point.reshape(1,-1), k=3) 
     
     nearestNeighbourLoc = (float(locations[ind[0][0]][0]), float(locations[ind[0][0]][1]))
-    
     return nearestNeighbourLoc
-    
+
 def getResponsePathDict(paths, source, destination):
     finalPath = []
     child = destination
