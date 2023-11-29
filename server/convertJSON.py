@@ -39,7 +39,7 @@ def getNeighbours(OSMId, destinationLetLon):
             dataPoints = itemList[eachEdge].getElementsByTagName('data')
             
             for eachData in range(len(dataPoints)):
-                if(dataPoints[eachData].attributes['key'].value=="d10"):
+                if(dataPoints[eachData].attributes['key'].value=="d13"):
                     length = dataPoints[eachData].firstChild.data
                     
             neighbour = itemList[eachEdge].attributes['target'].value
