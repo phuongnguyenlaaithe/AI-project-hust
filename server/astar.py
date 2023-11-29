@@ -1,4 +1,4 @@
-import convertJSON as cj
+import helperFile as hf
 import heapq as heap
 import time
 
@@ -9,11 +9,11 @@ def aStar(source, destination):
     path = {}
     closed_list = {}
     
-    sourceID = cj.getOSMId(source[0], source[1])
-    destID = cj.getOSMId(destination[0], destination[1])
+    sourceID = hf.getOSMId(source[0], source[1])
+    destID = hf.getOSMId(destination[0], destination[1])
     
     g_values[sourceID] = 0
-    h_source = cj.calculateHeuristic(source, destination)
+    h_source = hf.calculateHeuristic(source, destination)
     
     open_list.append((h_source,sourceID))
     
@@ -29,10 +29,10 @@ def aStar(source, destination):
             print("We have reached to the goal")
             break 
         
-        nbrs = cj.getNeighbours(curr_state, destination)
+        nbrs = hf.getNeighbours(curr_state, destination)
         values = nbrs[curr_state]
         for eachNeighbour in values:
-            neighbourId, neighbourHeuristic, neighbourCost, neighbourLatLon = cj.getNeighbourInfo(eachNeighbour)
+            neighbourId, neighbourHeuristic, neighbourCost, neighbourLatLon = hf.getNeighbourInfo(eachNeighbour)
             current_inherited_cost = g_values[curr_state] + neighbourCost
     
             if(neighbourId in closed_list):
@@ -43,7 +43,7 @@ def aStar(source, destination):
                 
                 open_list.append((neighbourFvalue, neighbourId))
             
-            path[str(neighbourLatLon)] = {"parent":str(cj.getLatLon(curr_state)), "cost":neighbourCost}
+            path[str(neighbourLatLon)] = {"parent":str(hf.getLatLon(curr_state)), "cost":neighbourCost}
             
         open_list = list(set(open_list))
         heap.heapify(open_list)

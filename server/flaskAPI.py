@@ -1,6 +1,6 @@
 from flask import Flask,request
 from flask_cors import CORS
-import convertJSON as cj
+import helperFile as hf
 import astar as algo
 import json
 
@@ -14,14 +14,14 @@ def home():
     inputSourceLoc = (float(raw_input[0]),float(raw_input[1]))
     inputDestLoc = (float(raw_input[2]), float(raw_input[3]))
 
-    mappedSourceLoc = cj.getKNN(inputSourceLoc)
-    mappedDestLoc = cj.getKNN(inputDestLoc)
+    mappedSourceLoc = hf.getKNN(inputSourceLoc)
+    mappedDestLoc = hf.getKNN(inputDestLoc)
 
     print("Mapped Source Location:", mappedSourceLoc)
     print("Mapped Destination Location:", mappedDestLoc)
 
     path = algo.aStar(mappedSourceLoc, mappedDestLoc)
-    finalPath, cost = cj.getResponsePathDict(path, mappedSourceLoc, mappedDestLoc)
+    finalPath, cost = hf.getResponsePathDict(path, mappedSourceLoc, mappedDestLoc)
     
     print("Cost of the path(km): "+str(cost))
     return json.dumps(finalPath)
