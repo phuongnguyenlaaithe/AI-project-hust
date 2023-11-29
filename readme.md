@@ -1,4 +1,4 @@
-# Project AI: Tìm đường bằng thuật toán A*
+# Project AI: Tìm đường đi ngắn nhất bằng thuật toán A*
 
 ## chạy client
 ```
