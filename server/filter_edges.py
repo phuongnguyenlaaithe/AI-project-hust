@@ -12,7 +12,7 @@ def reduce_edges(graphml_file_path, output_file_path):
     edges = root.getElementsByTagName("edge")
 
     # only retain edges that have key = d6 or d8
-    rm = False
+    rm = True
     for edge in edges[:]:
         # print(edge.data.__str__())
         # if edge.data.getAttribute("key") not in ["d6", "d8"]:
@@ -21,11 +21,12 @@ def reduce_edges(graphml_file_path, output_file_path):
         for data_element in data_elements:
             if data_element.getAttribute("key") in ["d10", "d8"]:
                 print(data_element.getAttribute("key"))
-                rm = True
+                rm = False
                 break
         if rm:
             graph_element.removeChild(edge)
-            rm = False
+
+        rm = True
 
 
     after_edges = root.getElementsByTagName("edge")
