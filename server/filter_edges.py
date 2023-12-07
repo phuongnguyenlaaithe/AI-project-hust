@@ -19,7 +19,7 @@ def reduce_edges(graphml_file_path, output_file_path):
         #     graph_element.removeChild(edge)
         data_elements = edge.getElementsByTagName('data')
         for data_element in data_elements:
-            if data_element.getAttribute("key") in ["d10", "d8"]:
+            if data_element.getAttribute("key") == "d8":
                 print(data_element.getAttribute("key"))
                 rm = False
                 break

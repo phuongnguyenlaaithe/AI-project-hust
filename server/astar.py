@@ -49,6 +49,7 @@ def aStar(source, destination):
         heap.heapify(open_list)
     
     print("Time taken to find path(in second): "+str(time.time()-s))
+    print(path)
     return path
 
 source_point = (40.5018771,-74.4580488)

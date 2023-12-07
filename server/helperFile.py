@@ -100,3 +100,7 @@ def getResponsePathDict(paths, source, destination):
         child = parent
         
     return finalPath, cost
+
+def getResponsePath(paths, source, destination):
+    finalPath = []
+    

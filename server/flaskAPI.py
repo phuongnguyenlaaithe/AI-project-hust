@@ -2,6 +2,8 @@ from flask import Flask,request
 from flask_cors import CORS
 import helperFile as hf
 import astar as algo
+import conv_id
+import astar2
 import json
 
 app = Flask(__name__)
@@ -20,10 +22,14 @@ def home():
     print("Mapped Source Location:", mappedSourceLoc)
     print("Mapped Destination Location:", mappedDestLoc)
 
-    path = algo.aStar(mappedSourceLoc, mappedDestLoc)
-    finalPath, cost = hf.getResponsePathDict(path, mappedSourceLoc, mappedDestLoc)
+    # path = algo.aStar(mappedSourceLoc, mappedDestLoc)
+    # finalPath, cost = hf.getResponsePathDict(path, mappedSourceLoc, mappedDestLoc)
     
-    print("Cost of the path(km): "+str(cost))
+    # thay the path
+    path = astar2.astar(mappedSourceLoc, mappedDestLoc)
+    finalPath = conv_id.convert_path(path)
+    
+    # print("Cost of the path(km): "+str(cost))
     return json.dumps(finalPath)
 
 if __name__ == "__main__":
