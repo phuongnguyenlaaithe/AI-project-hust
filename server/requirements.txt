@@ -1,0 +1,7 @@
+osmnx
+numpy
+scikit-learn
+xmltodict
+haversine
+flask
+flask_cors
