@@ -1,0 +1,5825 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 442033049,
+        "addr:housenumber": "49",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8463672,
+          21.0258326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 721906714,
+        "addr:housenumber": "33",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543053,
+          21.0202197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 724829447,
+        "addr:housenumber": "",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8554044,
+          21.0190755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 724829549,
+        "addr:housenumber": "26",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510883,
+          21.0278349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 724829762,
+        "addr:housenumber": "",
+        "addr:street": "Tràng An"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8506483,
+          21.0178599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 724829796,
+        "addr:housenumber": "45",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8505531,
+          21.0219886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 975757197,
+        "addr:housenumber": "26A",
+        "addr:street": "Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8562112,
+          21.0200182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 977640007,
+        "addr:housenumber": "1",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8517599,
+          21.0255677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 977640022,
+        "addr:housenumber": "7",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851708,
+          21.0253717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037575,
+        "addr:housenumber": "46",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8476001,
+          21.0242859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037588,
+        "addr:housenumber": "36",
+        "addr:street": "Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8516744,
+          21.0231794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037625,
+        "addr:housenumber": "43",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470644,
+          21.0258711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037659,
+        "addr:housenumber": "22",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480173,
+          21.0271507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037678,
+        "addr:housenumber": "48",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475567,
+          21.024298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037680,
+        "addr:housenumber": "93",
+        "addr:street": "Phố Phủ Doãn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478473,
+          21.0280286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037706,
+        "addr:housenumber": "34",
+        "addr:street": "Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8518195,
+          21.0231466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037739,
+        "addr:housenumber": "95",
+        "addr:street": "Phố Phủ Doãn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478503,
+          21.0279937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 993037743,
+        "addr:housenumber": "26",
+        "addr:street": "Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8535856,
+          21.0225905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 995291952,
+        "addr:housenumber": "20",
+        "addr:street": "Phố Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583597,
+          21.0199345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 995391076,
+        "addr:housenumber": "13",
+        "addr:street": "Phố Tông Đản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8576592,
+          21.0272167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 995391083,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Tông Đản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8579872,
+          21.0255087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 995391094,
+        "addr:housenumber": "6",
+        "addr:street": "Lê Phụng Hiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8579907,
+          21.0262521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 995391099,
+        "addr:housenumber": "18b",
+        "addr:street": "Phố Tông Đản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8576372,
+          21.0267457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 995391119,
+        "addr:housenumber": "19",
+        "addr:street": "Phố Tông Đản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578785,
+          21.0265555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752606,
+        "addr:housenumber": "31",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8511005,
+          21.0236365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752658,
+        "addr:housenumber": "60",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501199,
+          21.0213754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752679,
+        "addr:housenumber": "84",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495385,
+          21.0195122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752710,
+        "addr:housenumber": "78",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496865,
+          21.0199622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752766,
+        "addr:housenumber": "36",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8508922,
+          21.0237939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752819,
+        "addr:housenumber": "4",
+        "addr:street": "Nguyễn Bỉnh Khiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484118,
+          21.0178763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752884,
+        "addr:housenumber": "40b",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8507877,
+          21.0234733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752900,
+        "addr:housenumber": "34",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8509377,
+          21.0239241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752956,
+        "addr:housenumber": "80a",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496639,
+          21.0199102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008752980,
+        "addr:housenumber": "64",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8498537,
+          21.0208506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008753037,
+        "addr:housenumber": "7",
+        "addr:street": "Nguyễn Bỉnh Khiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486201,
+          21.0176453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008753070,
+        "addr:housenumber": "76",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849703,
+          21.0200022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1008753076,
+        "addr:housenumber": "28",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8511185,
+          21.0244622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1009003511,
+        "addr:housenumber": "10",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514215,
+          21.0255407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1009003540,
+        "addr:housenumber": "18b",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513707,
+          21.0253904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048012,
+        "addr:housenumber": "82",
+        "addr:street": "Ngô Thì Nhậm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8531233,
+          21.0150097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048015,
+        "addr:housenumber": "44",
+        "addr:street": "Lê Ngọc Hân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8549449,
+          21.0158736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048020,
+        "addr:housenumber": "44",
+        "addr:street": "Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475703,
+          21.0192741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048021,
+        "addr:housenumber": "54",
+        "addr:street": "Nguyễn Du"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474621,
+          21.0193291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048025,
+        "addr:housenumber": "18",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8555969,
+          21.0206926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048026,
+        "addr:housenumber": "49",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8523833,
+          21.020794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048027,
+        "addr:housenumber": "15A",
+        "addr:street": "Trần Khánh Dư"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8607378,
+          21.0225209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048028,
+        "addr:housenumber": "3",
+        "addr:street": "Phố Đặng Thái Thân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8582766,
+          21.0227259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048031,
+        "addr:housenumber": "1A",
+        "addr:street": "Phố Đặng Thái Thân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8591446,
+          21.0230168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048032,
+        "addr:housenumber": "31-33",
+        "addr:street": "-33 Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548391,
+          21.0230933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048034,
+        "addr:housenumber": "6",
+        "addr:street": "Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8593586,
+          21.0233266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048035,
+        "addr:housenumber": "25",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8515026,
+          21.0238862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048040,
+        "addr:housenumber": "24",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8533663,
+          21.0247459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048041,
+        "addr:housenumber": "16",
+        "addr:street": "Phố Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8550235,
+          21.0251388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048042,
+        "addr:housenumber": "2",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529888,
+          21.0252741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048045,
+        "addr:housenumber": "54",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8481115,
+          21.0260739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048046,
+        "addr:housenumber": "25",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501808,
+          21.0261248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048047,
+        "addr:housenumber": "2",
+        "addr:street": "Đinh Lễ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538093,
+          21.0261258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048054,
+        "addr:housenumber": "198",
+        "addr:street": "Đường Trần Quang Khải"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8576849,
+          21.02801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048118,
+        "addr:housenumber": "50",
+        "addr:street": "Phố Lò Đúc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8558565,
+          21.016589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048120,
+        "addr:housenumber": "23",
+        "addr:street": "Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8564046,
+          21.0208502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048124,
+        "addr:housenumber": "29",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521242,
+          21.0242838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1491048126,
+        "addr:housenumber": "23",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513241,
+          21.0241107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025748,
+        "addr:housenumber": "93",
+        "addr:street": "Lò Đúc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8569729,
+          21.0153173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025751,
+        "addr:housenumber": "91",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849461,
+          21.0165698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025755,
+        "addr:housenumber": "85",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495907,
+          21.017669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025757,
+        "addr:housenumber": "53",
+        "addr:street": "Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8476449,
+          21.0184187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025758,
+        "addr:housenumber": "13B",
+        "addr:street": "Phố Phan Huy Chú"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8567965,
+          21.0188401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025761,
+        "addr:housenumber": "23",
+        "addr:street": "Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8564046,
+          21.0208552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025762,
+        "addr:housenumber": "24",
+        "addr:street": "Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8481378,
+          21.0211614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025765,
+        "addr:housenumber": "81",
+        "addr:street": "Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468934,
+          21.022153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025766,
+        "addr:housenumber": "6",
+        "addr:street": "Phố Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8575468,
+          21.0221628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025768,
+        "addr:housenumber": "34",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8523375,
+          21.0224844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025770,
+        "addr:housenumber": "6",
+        "addr:street": "Dã Tượng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8464619,
+          21.0238231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025772,
+        "addr:housenumber": "4",
+        "addr:street": "Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8590317,
+          21.0241239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025774,
+        "addr:housenumber": "2",
+        "addr:street": "Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8568309,
+          21.0241537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025775,
+        "addr:housenumber": "24",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8533836,
+          21.0248016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025776,
+        "addr:housenumber": "42",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8511031,
+          21.0249357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025777,
+        "addr:housenumber": "37",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499388,
+          21.0249785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025779,
+        "addr:housenumber": "43B",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470037,
+          21.0256231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025780,
+        "addr:housenumber": "75",
+        "addr:street": "Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538542,
+          21.0266251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025784,
+        "addr:housenumber": "14",
+        "addr:street": "Phố Phủ Doãn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474388,
+          21.0275039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025850,
+        "addr:housenumber": "773",
+        "addr:street": "Đường Hồng Hà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.858753,
+          21.027772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025889,
+        "addr:housenumber": "37",
+        "addr:street": "Nguyễn Du"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8502279,
+          21.0184141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025891,
+        "addr:housenumber": "55",
+        "addr:street": "Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510469,
+          21.0199532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025901,
+        "addr:housenumber": "13",
+        "addr:street": "Đinh Lễ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8539771,
+          21.0257545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025975,
+        "addr:housenumber": "34",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8524038,
+          21.0245934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1498025982,
+        "addr:housenumber": "9",
+        "addr:street": "Đinh Lễ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8541218,
+          21.0257093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1659875034,
+        "addr:housenumber": "125127",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8493129,
+          21.0156272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 1814462730,
+        "addr:housenumber": "32",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510969,
+          21.027408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2302087707,
+        "addr:housenumber": "01",
+        "addr:street": "Đường Trần Quang Khải"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.859295,
+          21.0260413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2313983420,
+        "addr:housenumber": "60",
+        "addr:street": "Phố Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8563025,
+          21.0257273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2366843101,
+        "addr:housenumber": "48",
+        "addr:street": "Phố Trần Nhân Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848638,
+          21.0171605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2366849407,
+        "addr:housenumber": "16B",
+        "addr:street": "Nguyễn Bỉnh Khiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484117,
+          21.0173514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2366849408,
+        "addr:housenumber": "14",
+        "addr:street": "Nguyễn Bỉnh Khiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484165,
+          21.0174867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2366849410,
+        "addr:housenumber": "16A",
+        "addr:street": "Nguyễn Bỉnh Khiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484165,
+          21.0174191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 2810708201,
+        "addr:housenumber": "75B",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536105,
+          21.0261478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3541989300,
+        "addr:housenumber": "65B",
+        "addr:street": "Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8494073,
+          21.0216211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3565070797,
+        "addr:housenumber": "44B",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486654,
+          21.0242926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3565070799,
+        "addr:housenumber": "115",
+        "addr:street": "Phố Phủ Doãn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478418,
+          21.0276048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3565070802,
+        "addr:housenumber": "99",
+        "addr:street": "Phố Phủ Doãn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478496,
+          21.0279398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3565070804,
+        "addr:housenumber": "32",
+        "addr:street": "Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8525016,
+          21.0226695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3565070812,
+        "addr:housenumber": "10B",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8487407,
+          21.0268036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3671198536,
+        "addr:housenumber": "4",
+        "addr:street": "Lý Đạo Thành"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8577493,
+          21.0254125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3671278938,
+        "addr:housenumber": "24b",
+        "addr:street": "Phố Tông Đản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8579394,
+          21.0256851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 3678370945,
+        "addr:housenumber": "38",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852001,
+          21.0230861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4091998924,
+        "addr:housenumber": "32B",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8552418,
+          21.0188607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4171861196,
+        "addr:housenumber": "67",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8461021,
+          21.0246083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4186819465,
+        "addr:housenumber": "13",
+        "addr:street": "Phố Lò Đúc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8559963,
+          21.0170351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4217845890,
+        "addr:housenumber": "39",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8545563,
+          21.0250058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4267811489,
+        "addr:housenumber": "49",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8458094,
+          21.0262404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4272727197,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538843,
+          21.0180504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4293898701,
+        "addr:housenumber": "11- 13- 15",
+        "addr:street": "Trần Xuân Soạn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8550422,
+          21.0170098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4306912094,
+        "addr:housenumber": "34",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852462,
+          21.02256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4317959692,
+        "addr:housenumber": "44",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454576,
+          21.0278021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4327649345,
+        "addr:housenumber": "27",
+        "addr:street": "Triệu Việt Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8504717,
+          21.0172122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4364343294,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8566061,
+          21.019846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4383040796,
+        "addr:housenumber": "8",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848732,
+          21.0269075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4383208489,
+        "addr:housenumber": "6",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496826,
+          21.0265809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4383436892,
+        "addr:housenumber": "11",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8563607,
+          21.0244842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4383601396,
+        "addr:housenumber": "57",
+        "addr:street": "Bùi Thị Xuân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850015,
+          21.0162334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4440898391,
+        "addr:housenumber": "51",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.84892,
+          21.0238242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4485511691,
+        "addr:housenumber": "75",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8537452,
+          21.0271754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4499978190,
+        "addr:housenumber": "6",
+        "addr:street": "Phố Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8587723,
+          21.0235524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4524182892,
+        "addr:housenumber": "",
+        "addr:street": "Tuệ Tĩnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847534,
+          21.0152969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4549010614,
+        "addr:housenumber": "52",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8519626,
+          21.0200783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4568718696,
+        "addr:housenumber": "70",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8530145,
+          21.0181306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4570094492,
+        "addr:housenumber": "25",
+        "addr:street": "Hà Hồi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470486,
+          21.0211207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4570261497,
+        "addr:housenumber": "15A",
+        "addr:street": "Ngô Văn Sở"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8496338,
+          21.0204178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4571213593,
+        "addr:housenumber": "15A",
+        "addr:street": "Ngô Văn Sở"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8491213,
+          21.0208337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4571237191,
+        "addr:housenumber": "18",
+        "addr:street": "Ngô Văn Sở"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8494409,
+          21.020468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4571873590,
+        "addr:housenumber": "66",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853585,
+          21.02542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4576584290,
+        "addr:housenumber": "55",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8553515,
+          21.0190598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4580703791,
+        "addr:housenumber": "45",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8523347,
+          21.0214385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4582653390,
+        "addr:housenumber": "86",
+        "addr:street": "Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8487767,
+          21.022731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4590736393,
+        "addr:housenumber": "14",
+        "addr:street": "Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8576431,
+          21.0196201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4664490692,
+        "addr:housenumber": "53A",
+        "addr:street": "Hang Bai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8524885,
+          21.021604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4673034727,
+        "addr:housenumber": "48",
+        "addr:street": "Phố Trần Nhân Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486745,
+          21.0171558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4674783595,
+        "addr:housenumber": "22",
+        "addr:street": "Phố Tông Đản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578549,
+          21.0259431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4692183289,
+        "addr:housenumber": "25",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8516038,
+          21.0248196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4710377590,
+        "addr:housenumber": "46",
+        "addr:street": "Phố Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8452285,
+          21.0260964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4728815402,
+        "addr:housenumber": "42",
+        "addr:street": "Hang Voi Str"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8559934,
+          21.0278033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4735444121,
+        "addr:housenumber": "42k",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8498761,
+          21.0237658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4735627523,
+        "addr:housenumber": "53b",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8518305,
+          21.020298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4737497823,
+        "addr:housenumber": "19",
+        "addr:street": "Nguyễn Gia Thiều"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8458848,
+          21.0200827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4737582027,
+        "addr:housenumber": "8",
+        "addr:street": "Nguyễn Khắc Cần"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.855337,
+          21.0229422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4737591423,
+        "addr:housenumber": "17",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543292,
+          21.023723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4737795021,
+        "addr:housenumber": "107",
+        "addr:street": "Phố Phủ Doãn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477651,
+          21.0277923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4740905221,
+        "addr:housenumber": "8",
+        "addr:street": "Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8565948,
+          21.0233472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4744465824,
+        "addr:housenumber": "42",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512399,
+          21.0248873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4744465825,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512975,
+          21.0251736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4744468521,
+        "addr:housenumber": "05",
+        "addr:street": "Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8577363,
+          21.0224373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4746124123,
+        "addr:housenumber": "64",
+        "addr:street": "Vạn Kiếp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8636389,
+          21.0188427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4746164923,
+        "addr:housenumber": "4",
+        "addr:street": "Phố Đinh Lễ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8539897,
+          21.0258862
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4748160021,
+        "addr:housenumber": "6",
+        "addr:street": "Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8577515,
+          21.022302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4748338421,
+        "addr:housenumber": "13",
+        "addr:street": "Phố Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543226,
+          21.0188011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4748803213,
+        "addr:housenumber": "38",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8508563,
+          21.0236407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4756239827,
+        "addr:housenumber": "43",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543529,
+          21.0249719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4756239828,
+        "addr:housenumber": "43",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.854375,
+          21.0250376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4768907936,
+        "addr:housenumber": "214",
+        "addr:street": "Đường Trần Quang Khải"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8588721,
+          21.0262623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4768909022,
+        "addr:housenumber": "7",
+        "addr:street": "Nguyễn Khắc Cần"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8551448,
+          21.0231599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4774073422,
+        "addr:housenumber": "71",
+        "addr:street": "Tuệ Tĩnh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8481995,
+          21.0152876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4774193722,
+        "addr:housenumber": "2c",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501521,
+          21.0267787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4780307521,
+        "addr:housenumber": "50",
+        "addr:street": "Phố Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536746,
+          21.0208655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4782188221,
+        "addr:housenumber": "15",
+        "addr:street": "Lê Ngọc Hân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8555285,
+          21.0163926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4782213521,
+        "addr:housenumber": "40A",
+        "addr:street": "Trần Xuân Soạn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543279,
+          21.01709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4784540821,
+        "addr:housenumber": "81",
+        "addr:street": "Trần Quốc Toản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8457267,
+          21.0206823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4785483621,
+        "addr:housenumber": "50",
+        "addr:street": "Hàng Chuối"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8581049,
+          21.0151407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4785492821,
+        "addr:housenumber": "14D",
+        "addr:street": "Phố Hàng Chuối"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8568398,
+          21.0179506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4785798523,
+        "addr:housenumber": "13",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583853,
+          21.0189202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4806907721,
+        "addr:housenumber": "11/33B",
+        "addr:street": "Phố Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8594376,
+          21.022611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4806919623,
+        "addr:housenumber": "79A",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8469426,
+          21.0223434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4809949923,
+        "addr:housenumber": "22B",
+        "addr:street": "Hà Hồi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8473889,
+          21.0213429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4809990136,
+        "addr:housenumber": "20",
+        "addr:street": "Hạ Hồi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8475616,
+          21.0212618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4831974121,
+        "addr:housenumber": "68",
+        "addr:street": "Phố Quán Sứ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.845214,
+          21.0252823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4834112922,
+        "addr:housenumber": "",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8515688,
+          21.0258537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4867427121,
+        "addr:housenumber": "",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465214,
+          21.0259102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4968881233,
+        "addr:housenumber": "1",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499665,
+          21.026146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 4968899728,
+        "addr:housenumber": "53",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477614,
+          21.0183954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5013888021,
+        "addr:housenumber": "33b",
+        "addr:street": "Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8601709,
+          21.0200525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5087685022,
+        "addr:housenumber": "63",
+        "addr:street": "Phố Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8572564,
+          21.0248273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5201147328,
+        "addr:housenumber": "21",
+        "addr:street": "Phố Nguyễn Đình Chiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474793,
+          21.0158745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5332983222,
+        "addr:housenumber": "02",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529639,
+          21.0247936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5334178022,
+        "addr:housenumber": "13",
+        "addr:street": "Phố Lò Đúc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8553,
+          21.0181784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5340817221,
+        "addr:housenumber": "2",
+        "addr:street": "Phố Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8530718,
+          21.025385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5353997224,
+        "addr:housenumber": "21b",
+        "addr:street": "Ha Hoi, Hoan Kiem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474164,
+          21.0212785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5354037791,
+        "addr:housenumber": "43",
+        "addr:street": "Triệu Việt Vương"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.850568,
+          21.017903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5362019222,
+        "addr:housenumber": "9",
+        "addr:street": "Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521971,
+          21.0227984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5367507321,
+        "addr:housenumber": "",
+        "addr:street": "Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543132,
+          21.0221163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5384961328,
+        "addr:housenumber": "32",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8537362,
+          21.0180097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385096023,
+        "addr:housenumber": "61A",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8524887,
+          21.0180589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385096024,
+        "addr:housenumber": "81",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8519949,
+          21.0182107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385239425,
+        "addr:housenumber": "24",
+        "addr:street": "Trần Nhân Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8503317,
+          21.0169521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385300722,
+        "addr:housenumber": "26",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538331,
+          21.0180387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385333722,
+        "addr:housenumber": "16",
+        "addr:street": "Ngô Thì Nhậm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8528281,
+          21.0180243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385335424,
+        "addr:housenumber": "39",
+        "addr:street": "Phố Huế"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8517143,
+          21.01833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5385355436,
+        "addr:housenumber": "17",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543211,
+          21.018002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5394540921,
+        "addr:housenumber": "40a",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529505,
+          21.0238674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5402607721,
+        "addr:housenumber": "50",
+        "addr:street": "Phố Quán Sứ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.846086,
+          21.0280926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5459555822,
+        "addr:housenumber": "",
+        "addr:street": "23C Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853787,
+          21.023961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5474790332,
+        "addr:housenumber": "26",
+        "addr:street": "Trần Xuân Soạn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8550764,
+          21.0171688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5477891021,
+        "addr:housenumber": "16",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529766,
+          21.0248701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5479578121,
+        "addr:housenumber": "1A",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8571891,
+          21.0229132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5484083323,
+        "addr:housenumber": "",
+        "addr:street": "Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8566785,
+          21.0235045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5485639021,
+        "addr:housenumber": "4a",
+        "addr:street": "Số 4A Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499222,
+          21.0265016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5529931421,
+        "addr:housenumber": "777",
+        "addr:street": "Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8641732,
+          21.0179996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5529940221,
+        "addr:housenumber": "70",
+        "addr:street": "Vạn Kiếp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8637633,
+          21.0188997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5529954421,
+        "addr:housenumber": "453",
+        "addr:street": "Bạch đăngf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8619789,
+          21.0248427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5535070322,
+        "addr:housenumber": "17",
+        "addr:street": "Hoà Mã"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8526796,
+          21.0152909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5548176121,
+        "addr:housenumber": "No. 111",
+        "addr:street": "Phố Đặng Thái Thân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8582132,
+          21.0224583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5591986121,
+        "addr:housenumber": "53",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8497565,
+          21.0204041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609998410,
+        "addr:housenumber": "453",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8622359,
+          21.024282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609998414,
+        "addr:housenumber": "17",
+        "addr:street": "Hòa Mã"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529279,
+          21.0152642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609998739,
+        "addr:housenumber": "17A",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.857025,
+          21.0186405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609999058,
+        "addr:housenumber": "16-19",
+        "addr:street": "Ngô Thì Nhậm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8528958,
+          21.017788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609999070,
+        "addr:housenumber": "12",
+        "addr:street": "Ngô Thì Nhậm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529172,
+          21.0183388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609999992,
+        "addr:housenumber": "384",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8621468,
+          21.0243357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5609999996,
+        "addr:housenumber": "70",
+        "addr:street": "Vạn Kiếp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8636353,
+          21.0188496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5610000226,
+        "addr:housenumber": "35B",
+        "addr:street": "Nguyễn Bỉnh Khiêm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484111,
+          21.0162256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5617113056,
+        "addr:housenumber": "16",
+        "addr:street": "Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8557585,
+          21.0211607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5621040322,
+        "addr:housenumber": "23M",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8531752,
+          21.0240318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5623291946,
+        "addr:housenumber": "104",
+        "addr:street": "Hoà Mã"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852196,
+          21.0152867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5652800322,
+        "addr:housenumber": "384",
+        "addr:street": "Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8627076,
+          21.0224049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5659806722,
+        "addr:housenumber": "26",
+        "addr:street": "Trương Hán Siêu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8488735,
+          21.0200757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5662842965,
+        "addr:housenumber": "59",
+        "addr:street": "Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474448,
+          21.0177734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5662850954,
+        "addr:housenumber": "57",
+        "addr:street": "Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474228,
+          21.0178061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5679069421,
+        "addr:housenumber": "26",
+        "addr:street": "Trương Hán Siêu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848831,
+          21.0199124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5727813021,
+        "addr:housenumber": "",
+        "addr:street": "Phố Nhà Chung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.849817,
+          21.0280101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5748721988,
+        "addr:housenumber": "68",
+        "addr:street": "Nguyễn Du"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8456311,
+          21.0197217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5753234222,
+        "addr:housenumber": "",
+        "addr:street": "Lê Phụng Hiểu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8583585,
+          21.0263144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5753424521,
+        "addr:housenumber": "",
+        "addr:street": "Phố Lê Thạch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548181,
+          21.0270533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5758217921,
+        "addr:housenumber": "",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514511,
+          21.0256284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5808615965,
+        "addr:housenumber": "38",
+        "addr:street": "Nguyễn Du"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8489799,
+          21.0188553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5826775185,
+        "addr:housenumber": "19",
+        "addr:street": "Ngô Văn Sở"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486109,
+          21.0209601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5839478946,
+        "addr:housenumber": "36",
+        "addr:street": "Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548261,
+          21.024432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5850859027,
+        "addr:housenumber": "số nhà 12",
+        "addr:street": "823 hồng haf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8603737,
+          21.0269249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5920284286,
+        "addr:housenumber": "1",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8497409,
+          21.0263711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 5966485585,
+        "addr:housenumber": "29A",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8545733,
+          21.0201181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6024114885,
+        "addr:housenumber": "",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8592192,
+          21.0165116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6035928576,
+        "addr:housenumber": "445",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.86208,
+          21.0250522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6067694085,
+        "addr:housenumber": "25",
+        "addr:street": "lãng yêu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8621612,
+          21.018584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6170852485,
+        "addr:housenumber": "943",
+        "addr:street": "Trần Khánh Dư"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8613243,
+          21.0228255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6232634285,
+        "addr:housenumber": "",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548902,
+          21.0250845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6235316207,
+        "addr:housenumber": "",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8498111,
+          21.0265111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6260985085,
+        "addr:housenumber": "7",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544434,
+          21.0179262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6324812247,
+        "addr:housenumber": "20",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8539531,
+          21.024043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6345867729,
+        "addr:housenumber": "49",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8461073,
+          21.0259353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6449234786,
+        "addr:housenumber": "63",
+        "addr:street": "Phố Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8570964,
+          21.0247206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6451052995,
+        "addr:housenumber": "8 Tràng Thi",
+        "addr:street": "Phố Hàng Trống"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486666,
+          21.0269039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6499558903,
+        "addr:housenumber": "",
+        "addr:street": "Đường Trần Quang Khải"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8579017,
+          21.0280199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6520653785,
+        "addr:housenumber": "37",
+        "addr:street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8483076,
+          21.0206055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6591425214,
+        "addr:housenumber": "31",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8515468,
+          21.0243921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6600667428,
+        "addr:housenumber": "837",
+        "addr:street": "Đường Hồng Hà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8596686,
+          21.0263024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6600667431,
+        "addr:housenumber": "783",
+        "addr:street": "Đường Hồng Hà"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8590242,
+          21.0272287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6639736385,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8558267,
+          21.024781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644476982,
+        "addr:housenumber": "4A",
+        "addr:street": "Phố Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8574926,
+          21.0224837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644534239,
+        "addr:housenumber": "9",
+        "addr:street": "Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8594938,
+          21.0227757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644534240,
+        "addr:housenumber": "8",
+        "addr:street": "Phạm Ngũ Lão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8594718,
+          21.0228502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644534245,
+        "addr:housenumber": "14001",
+        "addr:street": "Phố Đặng Thái Thân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578464,
+          21.022729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644733492,
+        "addr:housenumber": "46",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514301,
+          21.0264426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644733493,
+        "addr:housenumber": "44",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513671,
+          21.0267436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644733494,
+        "addr:housenumber": "42",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513369,
+          21.0269026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644733495,
+        "addr:housenumber": "40",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513262,
+          21.0269489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644733496,
+        "addr:housenumber": "38",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851288,
+          21.0270685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6644733497,
+        "addr:housenumber": "34",
+        "addr:street": "Phố Lê Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512484,
+          21.0272112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647334055,
+        "addr:housenumber": "46",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543474,
+          21.025187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647334056,
+        "addr:housenumber": "14",
+        "addr:street": "Phố Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8551759,
+          21.0253178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647441179,
+        "addr:housenumber": "14",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8484314,
+          21.0269314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647441180,
+        "addr:housenumber": "12",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486279,
+          21.0268951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647441181,
+        "addr:housenumber": "93",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8533989,
+          21.0254993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647441184,
+        "addr:housenumber": "62",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8537104,
+          21.0253751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647579685,
+        "addr:housenumber": "60",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853825,
+          21.0253457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647579686,
+        "addr:housenumber": "48",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8542287,
+          21.0252202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647708863,
+        "addr:housenumber": "50",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8450519,
+          21.027921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647708865,
+        "addr:housenumber": "40",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468315,
+          21.0274803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647708866,
+        "addr:housenumber": "20",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480418,
+          21.0270403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647708867,
+        "addr:housenumber": "16",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482544,
+          21.0269784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917251,
+        "addr:housenumber": "37",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480338,
+          21.0268482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917252,
+        "addr:housenumber": "31",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8487278,
+          21.0266654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917253,
+        "addr:housenumber": "33",
+        "addr:street": "Phố Hàng Khay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521322,
+          21.0256771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917254,
+        "addr:housenumber": "25",
+        "addr:street": "Phố Hàng Khay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85233,
+          21.0256139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917255,
+        "addr:housenumber": "21",
+        "addr:street": "Phố Hàng Khay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8524682,
+          21.0255838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917256,
+        "addr:housenumber": "11",
+        "addr:street": "Phố Hàng Khay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8526948,
+          21.0255219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917257,
+        "addr:housenumber": "39",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544342,
+          21.0249592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6647917258,
+        "addr:housenumber": "35",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8546488,
+          21.0249079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6652021722,
+        "addr:housenumber": "62",
+        "addr:street": "Phố Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8460791,
+          21.0249417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6652021723,
+        "addr:housenumber": "60",
+        "addr:street": "Phố Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8460134,
+          21.0250055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6652021724,
+        "addr:housenumber": "58",
+        "addr:street": "Phố Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8458793,
+          21.0251232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6652021725,
+        "addr:housenumber": "48",
+        "addr:street": "Phố Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8453006,
+          21.0259588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6652021726,
+        "addr:housenumber": "42",
+        "addr:street": "Phố Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8451558,
+          21.0262066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6656456339,
+        "addr:housenumber": "16",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8556502,
+          21.0211894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6658015488,
+        "addr:housenumber": "509",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8622968,
+          21.0239624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6658015491,
+        "addr:housenumber": "441",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8620664,
+          21.0251125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6658038249,
+        "addr:housenumber": "645",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8630589,
+          21.0210497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6658038255,
+        "addr:housenumber": "",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.862625,
+          21.0223986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6658193741,
+        "addr:housenumber": "470",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8633492,
+          21.0197953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6662289411,
+        "addr:housenumber": "",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848823,
+          21.0220875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6662719077,
+        "addr:housenumber": "23",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8560529,
+          21.0207342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6685607711,
+        "addr:housenumber": "405",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8617888,
+          21.0259005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6685607712,
+        "addr:housenumber": "407",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8617982,
+          21.0258542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6688223091,
+        "addr:housenumber": "27",
+        "addr:street": "Phố Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8528219,
+          21.0232843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6688241179,
+        "addr:housenumber": "",
+        "addr:street": "Ngô Thì Nhậm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529617,
+          21.0162738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6688241180,
+        "addr:housenumber": "",
+        "addr:street": "Ngô Thì Nhậm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529308,
+          21.0164941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6688241181,
+        "addr:housenumber": "",
+        "addr:street": "Phố Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.854253,
+          21.0214218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6688241182,
+        "addr:housenumber": "",
+        "addr:street": "Phố Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8547735,
+          21.023308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689486565,
+        "addr:housenumber": "",
+        "addr:street": "Phố Lò Đúc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8566833,
+          21.0156078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625499,
+        "addr:housenumber": "19",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.856863,
+          21.0185735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625500,
+        "addr:housenumber": "23",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8562233,
+          21.0184195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625501,
+        "addr:housenumber": "27",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8557887,
+          21.0183494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625503,
+        "addr:housenumber": "7",
+        "addr:street": "Phố Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544369,
+          21.0184909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625508,
+        "addr:housenumber": "25",
+        "addr:street": "Phố Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8528021,
+          21.0192721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625509,
+        "addr:housenumber": "33",
+        "addr:street": "Phố Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852267,
+          21.0195412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689625510,
+        "addr:housenumber": "1",
+        "addr:street": "Phố Huế"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851976,
+          21.0194774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689675997,
+        "addr:housenumber": "20",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8569206,
+          21.0187738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689675998,
+        "addr:housenumber": "26",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8564499,
+          21.0187037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689675999,
+        "addr:housenumber": "32",
+        "addr:street": "Phố Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8526412,
+          21.0195425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689676000,
+        "addr:housenumber": "38",
+        "addr:street": "Phố Hàm Long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8524299,
+          21.0196382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689676001,
+        "addr:housenumber": "8",
+        "addr:street": "Phố Huế"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8518016,
+          21.0195018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689676003,
+        "addr:housenumber": "29",
+        "addr:street": "Phố Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8586922,
+          21.0195137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6689676004,
+        "addr:housenumber": "9",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8577494,
+          21.0187463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6738037605,
+        "addr:housenumber": "21",
+        "addr:street": "Phố Hàn Thuyên"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8565768,
+          21.0186117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6758836885,
+        "addr:housenumber": "78",
+        "addr:street": "Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477695,
+          21.0232339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6813546201,
+        "addr:housenumber": "69",
+        "addr:street": "Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8494742,
+          21.0185955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6813546214,
+        "addr:housenumber": "49",
+        "addr:street": "Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8458993,
+          21.0258177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6813546246,
+        "addr:housenumber": "27A",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548972,
+          21.0200118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6813546250,
+        "addr:housenumber": "23",
+        "addr:street": "Hàng Bài"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852931,
+          21.023654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6850919385,
+        "addr:housenumber": "1A",
+        "addr:street": "Phố Huế"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8520018,
+          21.0197436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6884103544,
+        "addr:housenumber": "19",
+        "addr:street": "Phạm Đình Hổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8571655,
+          21.0162522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6884618306,
+        "addr:housenumber": "53",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8457616,
+          21.0275266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6898101385,
+        "addr:housenumber": "9",
+        "addr:street": "Lê Ngọc Hân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.855327,
+          21.0168115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6923788657,
+        "addr:housenumber": "21",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8561731,
+          21.0245032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6924038649,
+        "addr:housenumber": "18",
+        "addr:street": "Phố Ngô Quyền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8549087,
+          21.0245599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6924855571,
+        "addr:housenumber": "60",
+        "addr:street": "Phố Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8567208,
+          21.0247026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 6924855573,
+        "addr:housenumber": "D4",
+        "addr:street": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8550444,
+          21.024143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7018829485,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513157,
+          21.0252275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7040037486,
+        "addr:housenumber": "24",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512528,
+          21.0250411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7099271385,
+        "addr:housenumber": "",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8571472,
+          21.0214017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7107497485,
+        "addr:housenumber": "9",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8564535,
+          21.0225776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7119281385,
+        "addr:housenumber": "10B",
+        "addr:street": "Nguyễn Chế Nghĩa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8527494,
+          21.0201979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7140198187,
+        "addr:housenumber": "35",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8542411,
+          21.0203602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7140198385,
+        "addr:housenumber": "4A",
+        "addr:street": "Phố Lê Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8575276,
+          21.0225054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7204095885,
+        "addr:housenumber": "29",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538338,
+          21.0179123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7205751930,
+        "addr:housenumber": "15",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8566874,
+          21.0213654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7213947987,
+        "addr:housenumber": "36c",
+        "addr:street": "Mai Hắc Đế"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510639,
+          21.0156529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 7213953186,
+        "addr:housenumber": "3A",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8494322,
+          21.0245245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8042347995,
+        "addr:housenumber": "53 8th floor",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477159,
+          21.0185631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8042348010,
+        "addr:housenumber": "44B",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8485818,
+          21.0242595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8330327917,
+        "addr:housenumber": "42D",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495971,
+          21.0236404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8349804654,
+        "addr:housenumber": "6",
+        "addr:street": "Phố Trần Thánh Tông"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8595184,
+          21.015339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8349804708,
+        "addr:housenumber": "49",
+        "addr:street": "Phố Hàng Chuối"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578776,
+          21.0160502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8563466264,
+        "addr:housenumber": "28A",
+        "addr:street": "Xóm Hà Hồi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8468216,
+          21.0212867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8591315321,
+        "addr:housenumber": "49",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8460199,
+          21.0258268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8674251067,
+        "addr:housenumber": "31",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8516675,
+          21.0243681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8677897517,
+        "addr:housenumber": "3",
+        "addr:street": "Phố Đặng Thái Thân"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8578416,
+          21.0227489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8764881785,
+        "addr:housenumber": "16",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8555439,
+          21.0211831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8957577168,
+        "addr:housenumber": "6",
+        "addr:street": "Phố Tràng Tiền"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8564743,
+          21.0246245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 8957577169,
+        "addr:housenumber": "60",
+        "addr:street": "Phố Lý Thái Tổ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8566972,
+          21.0247643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9378214224,
+        "addr:housenumber": "91",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534442,
+          21.0255539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9432531108,
+        "addr:housenumber": "61",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474789,
+          21.0240182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9432531109,
+        "addr:housenumber": "44B",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848736,
+          21.0242569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9432534346,
+        "addr:housenumber": "16",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8553848,
+          21.021237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9432534347,
+        "addr:housenumber": "44B",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8485935,
+          21.0241938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9735813180,
+        "addr:housenumber": "49",
+        "addr:street": "Phố Hai Bà Trưng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8461306,
+          21.0258075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9791862120,
+        "addr:housenumber": "75B",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8537314,
+          21.0260817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9805222022,
+        "addr:housenumber": "",
+        "addr:street": "6th Floor, 41 Hai Ba Trung, Tran Hung Dao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482069,
+          21.0252886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9805222031,
+        "addr:housenumber": "",
+        "addr:street": "527 Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8626305,
+          21.0236689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9931536919,
+        "addr:housenumber": "59-61",
+        "addr:street": "Thợ Nhuộm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449756,
+          21.0269287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9945276817,
+        "addr:housenumber": "",
+        "addr:street": "Phố Nguyễn Du"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8481553,
+          21.0188624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 9975258455,
+        "addr:housenumber": "",
+        "addr:street": "Phố 19 Tháng 12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478548,
+          21.0249297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10103203452,
+        "addr:housenumber": "63",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465325,
+          21.0243493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10202631285,
+        "addr:housenumber": "10b",
+        "addr:street": "Phố Tràng Thi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8492402,
+          21.026875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10239566609,
+        "addr:housenumber": "837",
+        "addr:street": "Đường Bạch Đằng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8651036,
+          21.0158231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10298717233,
+        "addr:housenumber": "17",
+        "addr:street": "Phố Hàng Khay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8525989,
+          21.0255546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10298717234,
+        "addr:housenumber": "11",
+        "addr:street": "Phố Bà Triệu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8516925,
+          21.0253245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10557047309,
+        "addr:housenumber": "",
+        "addr:street": "Phố Lê Văn Hưu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8519116,
+          21.0181861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10577066041,
+        "addr:housenumber": "",
+        "addr:street": "Apt 503, 59 Trang Thi Cau Thang #3, Tang 5, 503 Stairwell #3, 5th Floor, Hanoi City, Hà Nội 111000, Vietnam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8451111,
+          21.0277295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10715935205,
+        "addr:housenumber": "34",
+        "addr:street": "Ngõ Hạ Hồi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8467601,
+          21.0211181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 10910936305,
+        "addr:housenumber": "17",
+        "addr:street": "Phố Hàng Khay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8525635,
+          21.0255633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11082608292,
+        "addr:housenumber": "9",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.856883,
+          21.0211868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11083594406,
+        "addr:housenumber": "84",
+        "addr:street": "Phố Trần Quốc Toản"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8459944,
+          21.0207793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11090789705,
+        "addr:housenumber": "44",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474885,
+          21.0243655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11112276111,
+        "addr:housenumber": "79",
+        "addr:street": "Phố Trần Hưng Đạo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8473386,
+          21.0222238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11152625106,
+        "addr:housenumber": "16",
+        "addr:street": "Phố Phan Chu Trinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8548727,
+          21.0213583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11184862852,
+        "addr:housenumber": "",
+        "addr:street": "52 Bà Triệu,"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8505143,
+          21.0227167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11215013737,
+        "addr:housenumber": "",
+        "addr:street": "Phố Quang Trung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8502133,
+          21.0269185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11217947414,
+        "addr:housenumber": "19",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8557633,
+          21.0215733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11217947436,
+        "addr:housenumber": "25A",
+        "addr:street": "Phố Lý Thường Kiệt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8555078,
+          21.0216754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11285982898,
+        "addr:housenumber": "75",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536211,
+          21.0265743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 11285982899,
+        "addr:housenumber": "75",
+        "addr:street": "Phố Đinh Tiên Hoàng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536733,
+          21.0266979
+        ]
+      }
+    }
+  ]
+}

@@ -1,92 +1,74 @@
 import React, { useState } from "react";
 import OutlinedInput from "@material-ui/core/OutlinedInput";
-import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
-
-const NOMINATIM_BASE_URL = "https://nominatim.openstreetmap.org/search?";
-const params = {
-  q: "",
-  format: "json",
-  addressdetails: "addressdetails",
-};
+import RoomIcon from "@material-ui/icons/Room";
+import geojsonData from "./map.json"; // Import GeoJSON data
 
 export default function SearchBox(props) {
-  const { selectPosition, setSelectPosition, searchText, setSearchText } = props; // Thêm inputType để xác định loại ô tìm kiếm
+  const { selectPosition, setSelectPosition, inputType } = props;
 
+  const [searchText, setSearchText] = useState("");
   const [listPlace, setListPlace] = useState([]);
+
+const filterLocations = (text) => {
+  console.log("Filtering with text:", text);
+  const filteredLocations = geojsonData.features.filter((feature) => {
+    const address = `${feature.properties['addr:housenumber']} ${feature.properties['addr:street']}`;
+    return address.toLowerCase().includes(text.toLowerCase());
+  });
+  console.log("Filtered Locations:", filteredLocations);
+  setListPlace(filteredLocations);
+};
+
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", alignItems: "center" }}>
+        {inputType === "source" && (
+          <RoomIcon style={{ marginRight: "10px", color: "green" }} />
+        )}
+        {inputType === "destination" && (
+          <RoomIcon style={{ marginRight: "10px", color: "red" }} />
+        )}
         <div style={{ flex: 1 }}>
           <OutlinedInput
             style={{ width: "100%" }}
             value={searchText}
             onChange={(event) => {
-              setSearchText(event.target.value);
+              const text = event.target.value;
+              setSearchText(text);
+              filterLocations(text);
             }}
+            placeholder={inputType === "source" ? "From" : "To"}
           />
-        </div>
-        <div
-          style={{ display: "flex", alignItems: "center", padding: "0px 20px" }}
-        >
-          <Button
-            variant="contained"
-            color="primary"
-            onClick={() => {
-              // Search
-              const params = {
-                q: searchText,
-                format: "json",
-                addressdetails: 1,
-                polygon_geojson: 0,
-              };
-              const queryString = new URLSearchParams(params).toString();
-              const requestOptions = {
-                method: "GET",
-                redirect: "follow",
-              };
-              fetch(`${NOMINATIM_BASE_URL}${queryString}`, requestOptions)
-                .then((response) => response.text())
-                .then((result) => {
-                  console.log(JSON.parse(result));
-                  setListPlace(JSON.parse(result));
-                })
-                .catch((err) => console.log("err: ", err));
-            }}
-          >
-            Search
-          </Button>
         </div>
       </div>
       <div>
         <List component="nav" aria-label="main mailbox folders">
-          {listPlace.map((item) => {
-            return (
-              <div key={item?.place_id}>
-                <ListItem
-                  button
-                  onClick={() => {
-                    setSelectPosition(item);
-                  }}
-                >
-                  <ListItemIcon>
-                    <img
-                      src="./placeholder.png"
-                      alt="Placeholder"
-                      style={{ width: 38, height: 38 }}
-                    />
-                  </ListItemIcon>
-                  <ListItemText primary={item?.display_name} />
-                </ListItem>
-                <Divider />
-              </div>
-            );
-          })}
+        {listPlace.map((feature) => (
+  <div key={feature?.properties?.display_name}>
+    <ListItem
+      button
+      onClick={() => {
+        setSelectPosition({
+          lat: feature.geometry.coordinates[1],
+          lon: feature.geometry.coordinates[0],
+          display_name: feature.properties.display_name,
+        });
+        setSearchText(`${feature.properties['addr:housenumber']} ${feature.properties['addr:street']}`);
+        setListPlace([]); // Clear the list after selection
+      }}
+    >
+      <ListItemText
+        primary={`${feature.properties['addr:housenumber']} ${feature.properties['addr:street']}`}
+      />
+    </ListItem>
+    <Divider />
+  </div>
+))}
         </List>
       </div>
     </div>

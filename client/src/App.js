@@ -1,4 +1,4 @@
-import React, { useRef, useState} from "react";
+import React, {useRef, useState} from "react";
 import SearchBox from "./SearchBox";
 import Maps from "./Maps";
 import FindPath from "./FindPath";
@@ -6,8 +6,7 @@ import FindPath from "./FindPath";
 function App() {
   const [sourcePosition, setSourcePosition] = useState(null);
   const [destPosition, setDestPosition] = useState(null);
-  const [sourceNote, setSourceNote] = useState("");
-  const [destNote, setDestNote] = useState("");
+  const [path, setPath] = useState(null);
   const mapRef = useRef(null); // Thêm một tham chiếu đến bản đồ
 
   return (
@@ -23,24 +22,28 @@ function App() {
         <SearchBox
           selectPosition={sourcePosition}
           setSelectPosition={setSourcePosition}
-          searchText={sourceNote}
-          setSearchText={setSourceNote}
+          inputType="source"
         />
         <SearchBox
           selectPosition={destPosition}
           setSelectPosition={setDestPosition}
-          searchText={destNote}
-          setSearchText={setDestNote}
+          inputType="destination"
         />
         <FindPath
-        sourceNote={sourceNote}
-        destNote={destNote}
+        sourcePosition={sourcePosition}
+        destPosition={destPosition}
         map={mapRef.current} // Truyền tham chiếu đến bản đồ vào component FindPath
+        path={path}
+        setPath={setPath}
         />
       </div>
       <div style={{ width: "70vw" }}>
         <Maps
+          path={path}
+          setPath={setPath}
           sourcePosition={sourcePosition}
+          setSourcePosition= {setSourcePosition}
+          setDestPosition = {setDestPosition}
           destPosition={destPosition}
           mapRef={mapRef} // Truyền tham chiếu đến bản đồ vào component Maps
         />

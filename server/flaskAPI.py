@@ -1,7 +1,5 @@
 from flask import Flask,request
 from flask_cors import CORS
-import helperFile as hf
-import astar as algo
 import conv_id
 import astar2
 import json
@@ -16,17 +14,14 @@ def home():
     inputSourceLoc = (float(raw_input[0]),float(raw_input[1]))
     inputDestLoc = (float(raw_input[2]), float(raw_input[3]))
 
-    mappedSourceLoc = hf.getKNN(inputSourceLoc)
-    mappedDestLoc = hf.getKNN(inputDestLoc)
-
-    print("Mapped Source Location:", mappedSourceLoc)
-    print("Mapped Destination Location:", mappedDestLoc)
+    print("Mapped Source Location:", inputSourceLoc)
+    print("Mapped Destination Location:", inputDestLoc)
 
     # path = algo.aStar(mappedSourceLoc, mappedDestLoc)
     # finalPath, cost = hf.getResponsePathDict(path, mappedSourceLoc, mappedDestLoc)
     
     # thay the path
-    path = astar2.astar(mappedSourceLoc, mappedDestLoc)
+    path = astar2.astar(inputSourceLoc, inputDestLoc)
     finalPath = conv_id.convert_path(path)
     
     # print("Cost of the path(km): "+str(cost))
