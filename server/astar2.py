@@ -115,6 +115,7 @@ def astar(start, goal):
                 path = reconstruct_path(came_from, nb_node.id)
                 return path
 
+        # if reconstruct path here, it will return the last path tried
         path = reconstruct_path(came_from, cur.id)
         # convert_id_list(path)
         closed_set.add(cur.id)

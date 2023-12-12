@@ -5,3 +5,5 @@ xmltodict
 haversine
 flask
 flask_cors
+osmium
+geojson
