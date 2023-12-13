@@ -1,5 +1,6 @@
 import networkx as nx
 import csv
+import pandas as pd
 
 def graphml_nodes_to_csv(graphml_file, csv_file):
     # Read the GraphML file
@@ -56,7 +57,6 @@ def graphml_edges_to_csv(graphml_file, csv_file):
             prev_s = edge[0]
             prev_t = edge[1]
 
-    # TODO xử lí lặp data cạnh, reversed các thứ
 
 if __name__ == "__main__":
     graphml_file = "data/map.graphml"
@@ -64,3 +64,12 @@ if __name__ == "__main__":
     csv_file_edges = "data/e.csv"
     graphml_nodes_to_csv(graphml_file, csv_file_nodes)
     graphml_edges_to_csv(graphml_file, csv_file_edges)
+
+    # Specify the columns you want to select
+    columns_to_select = ['source', 'target', 'osmid','length','highway', 'lanes', 'name']
+
+    # Read the CSV file with pandas, selecting only the specified columns
+    df = pd.read_csv('data/e.csv', usecols=columns_to_select)
+
+    # Write the selected columns to another CSV file
+    df.to_csv('data/e.csv', index=False)

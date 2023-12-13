@@ -5,6 +5,7 @@ from nn import k_nearest_nodes, nearest_node
 from haversine import haversine
 
 edf = pd.read_csv("data/e.csv")
+file = open('log/log_'+str(time.time())+'.txt', 'w')
 
 class Node:
     def __init__(self, lat, lon, id):
@@ -37,6 +38,8 @@ def find_adj_nodes(n_id, k):
         d = adj_n['length'].values.tolist()[:k]
 
     dict = {"adj_nodes": adj_nodes, "d": d}
+    file.write(dict.__str__())
+    file.write("\n")
     return dict
 
 def astar(start, goal):
@@ -51,10 +54,14 @@ def astar(start, goal):
     
     def reconstruct_path(came_from, current):
         total_path = [current]
+        file.write("total_path:")
+        file.write("\n")
         while current in came_from.keys():
             # file.write(current)
             current = came_from[current]
             total_path.append(current)
+        file.write(total_path[:-1].__str__())
+        file.write("\n")
         return total_path[:-1]
     
     sn_id = nearest_node(start)
@@ -71,7 +78,18 @@ def astar(start, goal):
     path = []
 
     while (len(open_set) > 0):
+        file.write("open_set:")
+        file.write("\n")
+        for item in open_set:
+            file.write(item.id.__str__())
+            file.write(" ")
+        file.write("\n")
+
         cur = min(open_set, key = lambda node: node.f)
+
+        file.write(cur.__str__())
+        file.write("\n")
+
         open_set.remove(cur)
         came_from[cur.id] = cur.parent
 
@@ -91,9 +109,17 @@ def astar(start, goal):
             # calculate heuristic
 
             nb_node.g   = cur.g + dist_nbs[i]
+            file.write(nb_node.id.__str__())
+            file.write("\nnb_node.g = ")
+            file.write(str(nb_node.g))
+            file.write("\n")
             # nb_node.g   = cur.g + dist(cur, nb_node)
             h           = dist(nb_node, gn)
+            file.write(str(h))
             nb_node.f   = nb_node.g + h
+            file.write("\nnb_node.f = ")
+            file.write(str(nb_node.f))
+            file.write("\n")
 
             # file.write(nb_node, f"\t\tnb.f =", nb_node.f)
             
@@ -110,8 +136,12 @@ def astar(start, goal):
                 closed_set.add(nb_node.id)
 
             # if successor is the goal, stop search
-            if nb_node.id == gn.id:
+            if nb_node.id == gn.id or h < 50:
+                print(h)
                 came_from[nb_node.id] = cur.id
+                file.write("found goal: ")
+                file.write(nb_node.id.__str__())
+                file.write("\n")
                 path = reconstruct_path(came_from, nb_node.id)
                 return path
 
@@ -123,7 +153,7 @@ def astar(start, goal):
     return path
 
 if __name__ == "__main__":
-    start = [21.0240817,105.8530502]
-    goal = [21.0205826,105.8573257]
+    start = [21.0208502, 105.8564046]
+    goal = [21.0227259, 105.8582766]
     path = astar(start, goal)
     convert_id_list(path)
