@@ -58,20 +58,30 @@ def add_nodes():
     import pandas as pd
 
     # Read the CSV file
-    df = pd.read_csv('data/e.csv')
+    df = pd.read_csv('data/e2.csv')
+    ndf = pd.read_csv('data/n2.csv')
+
+    # copy all nodes to n2.csv
+    ndf.to_csv('data/n2.csv', index=False)
 
     # Create a new DataFrame to store the modified edges
     new_edges = pd.DataFrame(columns=df.columns)
-    new_nodes = pd.DataFrame(columns=['osmid'])
+    # new_nodes = pd.DataFrame(columns=['osmid','y','x','highway'])
+
+    counter = 9999
 
     # Loop through each row in the original DataFrame
     for index, row in df.iterrows():
+        if (row['length'] < 50):
+            new_edges = new_edges._append(row, ignore_index=True)
+            continue
         # Split the edge into two edges
         edge1 = row.copy()
         edge2 = row.copy()
 
         # Create a new node ID (you may want to use a proper logic for this)
-        new_node = max(df['target']) + 1
+        new_node = counter
+        counter -= 1
 
         # Update the target of the first edge to the new node
         edge1['target'] = new_node
@@ -82,18 +92,26 @@ def add_nodes():
         edge1['length'] = row['length'] / 2
         edge2['length'] = row['length'] / 2
 
-        new_lat = (row['y'] + df.at[row['target'], 'y']) / 2
-        new_lon = (row['x'] + df.at[row['source'], 'x']) / 2
+        # print(ndf.at[ndf.loc[ndf['osmid'] == row['target']]])
+        row_1 = ndf.loc[ndf['osmid'] == row['target']]
+        row_2 = ndf.loc[ndf['osmid'] == row['source']]
+        y1 = row_1.at[row_1.index[0], 'y']
+        x1 = row_1.at[row_1.index[0], 'x']
+        y2 = row_2.at[row_2.index[0], 'y']
+        x2 = row_2.at[row_2.index[0], 'x']
 
+        new_lat = (y1+y2) / 2
+        new_lon = (x1+x2) / 2
 
         # Append the modified edges to the new DataFrame
-        new_edges = new_edges.append(edge1, ignore_index=True)
-        new_edges = new_edges.append(edge2, ignore_index=True)
-        new_nodes = new_nodes.append({'osmid': new_node, 'y':new_lat, 'x':new_lon}, ignore_index=True)
+        new_edges = new_edges._append(edge1, ignore_index=True)
+        new_edges = new_edges._append(edge2, ignore_index=True)
+        ndf = ndf._append({'osmid': new_node, 'y':new_lat, 'x':new_lon}, ignore_index=True)
+        # ndf = ndf._append({'osmid': new_node}, ignore_index=True)
 
     # Write the new DataFrame to a new CSV file
     new_edges.to_csv('data/e2.csv', index=False)
-    new_nodes.to_csv('data/n2.csv', index=False)
+    ndf.to_csv('data/n2.csv', index=False)
 
 if __name__ == "__main__":
     # reduce_edges("data/map_full.graphml", "data/map.graphml")

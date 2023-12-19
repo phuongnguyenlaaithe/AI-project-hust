@@ -1,20 +1,20 @@
-# read n.csv, convert osmid to lat, lon
+# read n2.csv, convert osmid to lat, lon
 import time
 import pandas as pd
 # temp path includes time of execution
 temp_path = "data/tmp/path_"+str(time.time())+".csv"
 
-# ndf = pd.read_csv("data/n.csv")
+# ndf = pd.read_csv("data/n2.csv")
 
 def convert_id(id):
-    ndf = pd.read_csv("data/n.csv")
+    ndf = pd.read_csv("data/n2.csv")
     ndf = ndf.set_index('osmid')
     lat = ndf.loc[id]['y']
     lon = ndf.loc[id]['x']
     return [lat, lon, id]
 
 def convert_id_list(id_list: list[str]):
-    ndf = pd.read_csv("data/n.csv")
+    ndf = pd.read_csv("data/n2.csv")
     ndf = ndf.set_index('osmid')
     # write to csv
     df = pd.DataFrame(columns=['osmid', 'y', 'x'])
@@ -25,7 +25,7 @@ def convert_id_list(id_list: list[str]):
     df.to_csv(temp_path, index=False)
 
 def get_lat_lon(id):
-    ndf = pd.read_csv("data/n.csv")
+    ndf = pd.read_csv("data/n2.csv")
     ndf = ndf.set_index('osmid')
     lat = ndf.loc[id]['y']
     lon = ndf.loc[id]['x']

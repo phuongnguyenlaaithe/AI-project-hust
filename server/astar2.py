@@ -4,7 +4,7 @@ from conv_id import convert_id, convert_id_list
 from nn import k_nearest_nodes, nearest_node
 from haversine import haversine
 
-edf = pd.read_csv("data/e.csv")
+edf = pd.read_csv("data/e2.csv")
 file = open('log/log_'+str(time.time())+'.txt', 'w')
 
 class Node:
@@ -136,7 +136,7 @@ def astar(start, goal):
                 closed_set.add(nb_node.id)
 
             # if successor is the goal, stop search
-            if nb_node.id == gn.id or h < 50:
+            if nb_node.id == gn.id or h < 30:
                 print(h)
                 came_from[nb_node.id] = cur.id
                 file.write("found goal: ")

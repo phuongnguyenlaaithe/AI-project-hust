@@ -1,8 +1,8 @@
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 
-csv_file_nodes = "data/n.csv"
-csv_file_edges = "data/e.csv"
+csv_file_nodes = "data/n2.csv"
+csv_file_edges = "data/e2.csv"
 
 def nearest_node(point):
     ndf = pd.read_csv(csv_file_nodes)
