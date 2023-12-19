@@ -58,21 +58,21 @@ def add_nodes():
     import pandas as pd
 
     # Read the CSV file
-    df = pd.read_csv('data/e2.csv')
-    ndf = pd.read_csv('data/n2.csv')
+    df = pd.read_csv('data/e3.csv')
+    ndf = pd.read_csv('data/n3.csv')
 
-    # copy all nodes to n2.csv
-    ndf.to_csv('data/n2.csv', index=False)
+    # copy all nodes to n3.csv
+    # ndf.to_csv('data/n3.csv', index=False)
 
     # Create a new DataFrame to store the modified edges
     new_edges = pd.DataFrame(columns=df.columns)
     # new_nodes = pd.DataFrame(columns=['osmid','y','x','highway'])
 
-    counter = 9999
+    counter = 8888
 
     # Loop through each row in the original DataFrame
     for index, row in df.iterrows():
-        if (row['length'] < 50):
+        if (row['length'] < 30):
             new_edges = new_edges._append(row, ignore_index=True)
             continue
         # Split the edge into two edges
@@ -110,8 +110,8 @@ def add_nodes():
         # ndf = ndf._append({'osmid': new_node}, ignore_index=True)
 
     # Write the new DataFrame to a new CSV file
-    new_edges.to_csv('data/e2.csv', index=False)
-    ndf.to_csv('data/n2.csv', index=False)
+    new_edges.to_csv('data/e3.csv', index=False)
+    ndf.to_csv('data/n3.csv', index=False)
 
 if __name__ == "__main__":
     # reduce_edges("data/map_full.graphml", "data/map.graphml")
